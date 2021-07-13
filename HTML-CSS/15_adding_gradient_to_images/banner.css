@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+
+.banner {
+  background: url(../images/bg3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* background color,image if meron,position,size,repeat,attachment */
+
+.header {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../images/bg3.jpeg) center/cover no-repeat fixed;
+}
+
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4ae02c+0,ed80a4+100&0.64+0,0.76+100 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(74, 224, 44, 0.64) 0%,
+    rgba(237, 128, 164, 0.76) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(74, 224, 44, 0.64) 0%,
+    rgba(237, 128, 164, 0.76) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(74, 224, 44, 0.64) 0%,
+    rgba(237, 128, 164, 0.76) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a34ae02c', endColorstr='#c2ed80a4',GradientType=1 ); /* IE6-9 */
+}
+
+/* link para sa gradient picker https://www.colorzilla.com/gradient-editor/ */

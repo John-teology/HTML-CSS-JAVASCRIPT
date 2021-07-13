@@ -1,0 +1,26 @@
+#One {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #5e8c61;
+}
+
+#Two {
+  color: rgba(0, 0, 0, 0.9);
+  background: #4e6151;
+}
+
+#Three {
+  color: rgba(0, 0, 0, 0.9);
+  background: #3b322c;
+}
+
+#Four {
+  color: rgba(0, 0, 0, 0.9);
+  background: #ebd494;
+}
+
+#Five {
+  color: rgba(0, 0, 0, 0.9);
+  background: #3b2c35;
+}
+/* rgba red green blue and opacity yung rba 0-255 yung opacity 0-1 */
+/* so dito pwede mo gamitin si background property as itselft the kung ano man ilagay mo like margin or color automatic na yun */

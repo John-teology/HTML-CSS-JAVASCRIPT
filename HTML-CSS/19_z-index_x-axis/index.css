@@ -1,0 +1,35 @@
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.banner {
+  margin: 20px;
+  width: 35vh;
+  height: 70vh;
+  border: 5px solid red;
+  position: relative;
+}
+
+.one {
+  top: 0;
+  left: 0;
+  /* z-index: 0; */
+}
+
+.two {
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+}
+
+.three {
+  top: 20%;
+  left: 20%;
+  z-index: 2;
+}
+
+/* (z-index default value is 0) is use para i adjust kung sino ang gusto mong nasa ibabaw or asa baba ng mga element */
+
+/* also gagana lang si z-index sa ilalim ng postion relative and absolute pag static hindi siya gagana */

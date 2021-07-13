@@ -1,0 +1,24 @@
+.LH {
+  line-height: 2.5em;
+}
+
+.LS {
+  letter-spacing: 1.9px;
+}
+
+.WS {
+  word-spacing: 10px;
+}
+
+.TT {
+  text-transform: capitalize;
+}
+
+.TD {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

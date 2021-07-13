@@ -1,0 +1,84 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block; /*  inline block let us add width and height compare to inline only*/
+}
+
+/* so translateX will move only in x axis also all the values are relative sa parent div or any element*/
+
+/* transtale is momove niya lang*/
+
+.one {
+  background: red;
+  transform: translateX(-20px);
+  transform: translateX(50%);
+}
+
+/* so basically translateY is for Y axis */
+.two {
+  background: greenyellow;
+  transform: translateY(50%);
+}
+
+/* translate (x ,y) */
+.three {
+  background: orange;
+  transform: translate(10%, 20%);
+}
+
+h1 {
+  margin: 100px;
+}
+/* Under is for Scale() papahabain or dadagdagan niya */
+
+.four {
+  background: rebeccapurple;
+  transform: scaleX(0.5);
+}
+
+.five {
+  background: blue;
+  transform: scaleY(2);
+}
+
+.six {
+  background: gold;
+  transform: scale(0.5, 0.5);
+}
+/* Under is for Rotate() rorotate siya for z , y and x axis*/
+
+.seven {
+  background: rebeccapurple;
+  transform: rotateZ(
+    45deg
+  ); /* same as rotate(45deg) z and rotate is parang clock ang rotate*/
+}
+
+.eight {
+  background: blue;
+  transform: rotateX(90deg); /* fiflip niya pag x axis*/
+}
+
+.nine {
+  background: gold;
+  transform: rotateY(
+    79deg
+  ); /* fiflip niya pag Y axis   hindi sila both makikita dahil naka 90*/
+}
+
+/* Under is for Skew() is parang ihihiga niya lang hahah*/
+
+.ten {
+  background: rebeccapurple;
+  transform: skewX(-45deg);
+}
+
+.eleven {
+  background: blue;
+  transform: skewY(-45deg);
+}
+
+.twelve {
+  background: gold;
+  transform: skew(-45deg, 45deg); /* (x,y)*/
+}

@@ -1,0 +1,37 @@
+#Head {
+  color: orange;
+  background-color: aqua;
+}
+/* eto naman is with the use of Id */
+
+body {
+  background-color: white;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+#tittle {
+  font-size: 100px;
+}
+
+/* body for overall */
+
+/* eto naman pwede ka mag specify ng elemenet */
+/* h1,h3{
+    color: grey;
+    you can specify the with Id or class
+    # pag naka ID
+    . pag naka class
+    and walang kapag element
+    Id is dapat per elemen iba iba pero pag class pwede mo magamit sa iba element 
+} */

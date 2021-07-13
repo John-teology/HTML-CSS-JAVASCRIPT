@@ -1,0 +1,46 @@
+* {
+  color: red;
+}
+
+#heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: blue;
+  width: 389px;
+  height: 50px;
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+}
+
+.line {
+  background: black;
+}
+
+div h1 {
+  color: orange;
+}
+
+/* so dito kinukuha niya yung mga h1 sa lahat ng div and pwede mo palitan yung mga property neto with this syntax */
+
+div > h1 {
+  color: blue;
+}
+
+/* dito naman is lahat ng h1 na ang parent nila ay div mismo wala ng ibang other parent  */
+
+.header > h1 {
+  /* color: orange; */
+}
+
+/* this one is same as the div > h1 but more specific kase ginamit natin yung class name */
+
+#heading:hover {
+  color: red;
+}

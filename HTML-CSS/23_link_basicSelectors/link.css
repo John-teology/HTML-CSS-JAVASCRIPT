@@ -1,0 +1,30 @@
+/* again all of this are psuedo class basic selectors */
+
+a {
+  display: block;
+  margin: 20px;
+}
+
+a:link {
+  color: red;
+}
+
+/* (link) is just getting all the link simple and quiet useless hehe */
+
+a:visited {
+  color: black;
+}
+
+/* (visited) is an effect na pag na visit or na click na yung link mag iiba yung kulay */
+
+.Hover:hover {
+  text-decoration: none;
+}
+
+/* (hover) alam na natin to pag napunta yung cursor dito mag iiba yung property */
+
+.Active:active {
+  color: green;
+}
+
+/* (active) pag kiclick mo palang mag iiba yung property  */

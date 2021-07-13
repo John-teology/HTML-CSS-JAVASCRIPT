@@ -1,0 +1,75 @@
+p::before {
+  content: "hello ";
+  font-weight: bold;
+  font-size: 5rem;
+  color: orange;
+  top: 30px;
+  left: 30px;
+}
+
+p::after {
+  content: " Hi! ";
+  font-size: 5em;
+  color: black;
+}
+
+/* (pseudo element) is from css pwede ka mag lagay ng element to before and after outside the html file 
+
+required lang ang arg content: "" kahit wlang lamang text dapat andyan siya para gumana. 
+
+also hindi gumagana ang pseudo sa img
+
+*/
+
+div {
+  width: 50vh;
+  margin: 50px auto;
+  /* border: 2px solid orange; */
+  position: relative;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* yung pseudo element size is naka depende sa parent or sa saan siya naka connect so dito sa div so ang pag 100% ang nilagay mong width and height equal yun sa 50vh  */
+
+div::before {
+  /* content: "hellp"; */
+  content: "";
+  border: 2px solid grey;
+  width: 100%; /* so eto naka depende sa div kase ginamit natin yung div */
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: 40px;
+  left: 40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+div::after {
+  /* content: "hellp"; */
+  content: "";
+  background: gray;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+.border:hover::after,
+.border:hover::before {
+  top: 0;
+  left: 0;
+}
+
+h1:hover {
+  color: red;
+}
+
+/* so etong hover is ginagamit para pag napunta yung move mo sa isang element pwede mong baguhin yung mga properties neto */

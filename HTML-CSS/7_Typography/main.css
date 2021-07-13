@@ -1,0 +1,32 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Libre+Barcode+128+Text&family=Roboto:wght@500&display=swap"); */
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: right; */
+}
+
+.main {
+  font-family: "Libre Barcode 128 Text", cursive;
+  text-align: center;
+}
+
+.Subheading {
+  font-family: "Libre Barcode 128 Text", cursive;
+}
+
+.one {
+  font-weight: bold;
+  text-indent: 100px;
+}
+
+.two {
+  font-weight: lighter;
+}
+
+/* okay so tawag diyan is font stack pag yung isa diyan ay hindi supported ng isang browser gagamitin niya yung iba kaya madami kaya stock */
+
+/* pag import dito sa css file ilalagay pag link sa html file sa my heading  */
+
+/* text align is simple as flex direction */
+
+/* text indent yung indention parang sa word  */

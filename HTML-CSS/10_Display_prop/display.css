@@ -1,0 +1,26 @@
+.block {
+  background: blue;
+  color: white;
+  /* display: inline; */
+  width: 150px;
+  margin: 30px auto;
+}
+.inline {
+  background-color: red;
+  color: white;
+  /* display: block; */
+}
+
+body {
+  text-align: center;
+}
+
+/* okay so si block element ay nag coconsume ng whole space and automatic nag sstart siya with a newline so no need for <br>  */
+
+/* unlike sa inline ginagamit lang niya yung space depende sa size ng text niya and need mo pa gumamit ng <br> if ever gusto mo mag next line kase hindi siya automatic */
+
+/* but with the use of display property pwede mong gawing block element ang isang inline element  actually vice 
+
+versa  you also set inline element to a block element*/
+
+/* sa margin pag auto automatic asa center */

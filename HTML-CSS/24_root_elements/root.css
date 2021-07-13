@@ -1,0 +1,26 @@
+:root {
+  background: url(../images/bg3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 19px;
+}
+/* alright so basically root is the root values so pag may relative values ka like vh ,rem or ano pa naka depende sila dito
+
+root dito naka lagay lahat ng default values
+*/
+
+/* 1rem == 16px */
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+.responsive {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,29 @@
+.one,
+.two,
+.three {
+  width: 150px;
+  height: 150px;
+  display: inline-block; /*  inline block let us add width and height compare to inline only*/
+  margin-bottom: 50px;
+}
+
+div:hover {
+  background: violet;
+  border-radius: 50%;
+}
+.one {
+  background: blue;
+  transition: all 2s;
+}
+
+.two {
+  background: greenyellow;
+  transition: background 3s, border-radius 3s;
+}
+
+.three {
+  background: orange;
+  transition-property: background, border-radius; /* dito naman kailang same sila nung transition property pag gusto mo ng mas specific time*/
+  transition-duration: 4s, 1s; /* if you want to be specific you can do this pero kung lahat ng property gusto mong mag bago pwedeeng all*/
+  transition-delay: 1s;
+}

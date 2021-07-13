@@ -1,0 +1,30 @@
+:root {
+  /* creating variable global*/
+  --primaryColor: red;
+  --textcolor: green;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.text {
+  color: var(--textcolor);
+}
+
+.main-text {
+  color: var(--textcolor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+}
+
+div {
+  /* creating local variable meaning kung saang element mo lang siya ininitialize dun mo lang sa magagamit in this case sa mga div mo lang pwede gamitin tong virable na to*/
+  --primaryred: rgb(3, 3, 3);
+}
+
+.main-text {
+  color: var(--primaryred);
+}

@@ -1,0 +1,15 @@
+h1 {
+  text-shadow: 10px 10px 10px black;
+  /* text-shadow:  xaxis,yaxis,blur,color; */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: box-shadow 1s linear;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 10px black;
+}

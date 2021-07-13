@@ -1,0 +1,58 @@
+.outer {
+  width: 400px;
+  height: 500px;
+  background: red;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: green;
+}
+html {
+  font-size: 10;
+}
+
+.relative {
+  font-size: 2em;
+}
+/* so 1 em is = 16px kaya same lang si 32px and 2em
+    and remember default size ng isang browser is 16px or 1em
+
+    also
+    em only follow the base size of its parent property so far si body and parent property niya so pag nag create ako ng div and nag specify ako ng ibang size dun siya mag babase
+*/
+
+/* rem so we also have another one this rem is sa html root or sa browser lang sumusunod. so far 16px pa rin ang default value niya, hindi ito nag babago kahit sa parent element like div mag babago lang to pag 
+html{
+    pinalitan mo yung default size dito
+} 
+*/
+.absolute {
+  font-size: 32px;
+}
+
+/* absolute values are yung exact value na gusto mo ilagay */
+
+/* relative value is by percentage example is 50 percent lang gusto mong size ng width so 50% lang ng screen ang mapapalitan */
+
+.vh {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+/* basically this vw and vh is ginagamit as percentage wala lang yung percent sign okay  */
+
+.Navbar {
+  background-color: aquamarine;
+  height: 100px;
+  color: white;
+  font-size: 3em;
+}
+
+.Banner {
+  background-color: red;
+  min-height: calc(100vh - 100px);
+}
+
+/* so may function rin pala sa css which is calc syempre calculator it calculate  */

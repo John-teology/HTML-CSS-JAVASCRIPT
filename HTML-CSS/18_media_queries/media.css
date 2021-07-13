@@ -1,0 +1,33 @@
+body {
+  background: yellow;
+}
+
+.banner {
+  background: grey;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* min-width = starting from */
+/* max-width = up to  */
+
+@media screen and (min-width: 600px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+/* so this media screen will help us to create responsive web app cause it will change any property if ever the size change from the given minimun width or max width  */

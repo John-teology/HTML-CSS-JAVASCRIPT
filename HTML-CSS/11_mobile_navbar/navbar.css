@@ -1,0 +1,52 @@
+/* div {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* first is the parent, next is the child 
+ parang navigation lang pag sa file system
+*/
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background-color: black;
+  color: orange;
+  padding: 10px 10px;
+  margin: 10px 20px;
+  display: block;
+}
+/* 
+inline element margin top and bottom are ignore
+block element margin top and bottom are good */
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: orange;
+  background: black;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+/* new learnings para gumana yung top and bot margin gamitin mo si inline-block sa display property */
+
+.con {
+  background-color: black;
+}

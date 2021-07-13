@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: green;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 0.5;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+/* okay so display property is ginagamit lang para kung gusto mo tanggaling yung isang elemeng just like visibility si opacity alam mo na yan para sa pag linaw or labo ng isang element */
+
+.big-img {
+  background: url("/images/bg3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: url("/images/bg2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("/images/bg3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* so (background repaet) property will help us edit yung mga image na nag rerepeat dahil maliit and pwede mo rin gamitin yan para tanggaling yung repeatitio ng isang image 
+
+but the round arg is use para nag aadjust yung repition depende sa size yung browser */
+
+/* another one is the (background size property) so isa sa pinaka usefull sa property nato is yung cover so it will help na i fit yung imamge sa buong div kahit na ano pang size neto */
+
+/* (background position) mostly use para icenter ang isang image pwede ring sa ibang banda */
+
+/* (background attachment) is use para iadjust kung pano mag rereact yung images. with the use use of fixed gagamitin niya yung image kahit na mag scroll ka d mag babago yung size */

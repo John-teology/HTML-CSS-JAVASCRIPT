@@ -1,0 +1,38 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: blue;
+  margin: 15px;
+}
+
+div:hover {
+  transform: translateX(100px);
+}
+
+.ease {
+  transition: all 1s ease;
+}
+
+.linear {
+  transition: all 1s linear;
+}
+
+.ease-in {
+  transition: all 1s ease-in;
+}
+.ease-out {
+  transition: all 1s ease-out;
+}
+
+.ease-in-out {
+  transition: all 1s ease-in-out;
+}
+
+/* remember transition: (transition property) (transition duration) (transition-timing-function) (transition deley), uulit lang pag madami kang property  */
+
+/* ease : slow start, fast , slow end  (:default)
+linear: same speed start to end
+ease-in : slow start
+ease-out: slow end 
+ease-in-out: slow start, fast , slow end  */

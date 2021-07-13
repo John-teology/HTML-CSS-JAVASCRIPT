@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  background: green;
+  color: black;
+  padding: 5px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  border-style: solid;
+  border-color: pink;
+  border-width: 5px;
+}
+
+p {
+  /* padding: 50px 30px; */
+  padding: 10px 20px 30px 40px;
+  background-color: aqua;
+  margin: 40px 50px;
+  /* border: 10px solid red; */
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-top-color: blueviolet;
+}
+/* so dito unang values mo sa padding would be top and bottom second is the left and right so para if ever na gusto mong hindi same si top, bottom kay right and left 
+
+padding: top/bottom px    right/left px ;
+*/
+
+/* meron rin para sa lahat with this syntax */
+
+/* padding: top right bottom left */
+
+/* margin is same as padding */
+
+/* border: width style color;  */
+
+/* pwede rin ang  */
+/* border-(top,right,bot,left)-(styles,color,with or anything) */
+
+/* margin-top: -100px; ala lang just top move it to top */

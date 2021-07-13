@@ -1,0 +1,32 @@
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, green);
+  /* has a default of to bottom  meaning paputang bottom*/
+}
+.two {
+  background: linear-gradient(to top, red, green, orange);
+}
+
+.three {
+  background: linear-gradient(150deg, red, green);
+}
+
+.four {
+  background: linear-gradient(to top right, red, green);
+}
+
+.five {
+  background: linear-gradient(
+    to left,
+    rgba(4, 2, 44, 0.3),
+    rgba(0, 0, 44, 0.9)
+  );
+}
+
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}

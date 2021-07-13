@@ -1,0 +1,33 @@
+p::first-line {
+  font-weight: bold;
+}
+
+/* isa rin tong basic selector ginagawa ni (first-line) is you can change the property of any firstline in a paragraph */
+
+p::first-letter {
+  font-size: 3rem;
+}
+
+/* isa rin tong basic selector ginagawa ni (first-Letter) is you can change the property of any firstletter in a paragraph */
+
+.header {
+  width: 100vh;
+  height: 100vh;
+  margin: 50px auto;
+  background: linear-gradient(to right, rgba(10, 30, 0, 1), rgba(0, 0, 0, 0.5));
+
+  /* background color,image if meron,position,size,repeat,attachment */
+}
+
+.header:hover {
+  background: url(../images/bg3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}

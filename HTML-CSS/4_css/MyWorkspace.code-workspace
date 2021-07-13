@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\RN"
+		},
+		{
+			"path": "..\\..\\py_projects"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "HTML-CSS-JAVASCRIPT"
+	}
+}

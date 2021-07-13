@@ -1,0 +1,47 @@
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: static; */
+  position: relative;
+}
+/* border: size,style, color */
+
+/* position static is wala lang steady lang haha */
+
+.one {
+  background: blue;
+  top: 0px;
+  /* left: 20rem; */
+  right: 50%;
+  /* bottom: 10%; */
+}
+
+/* pag relative yung position yun can adjust the top bottom right and left niya base to its relative position or kung asan siya */
+
+.two {
+  background: green;
+}
+
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 20;
+}
+
+/* so positon absolute is depending on the postion relative */
+
+/* default position  ni body is relative so pag walang relative element sa taas ni absolute position sa body siya mag dedepende dahil relative ang position ni body. */
+
+button {
+  color: white;
+  background: orange;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* position fixed namna is hindi nawawala kahit mag scroll ka recommended for navigation tabs */

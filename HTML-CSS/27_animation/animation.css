@@ -1,0 +1,108 @@
+div {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+}
+
+.Transition {
+  background: red;
+  transition: all 2s linear;
+}
+
+.Transition:hover {
+  background: yellow;
+  transform: translate(100px);
+}
+
+.Animation {
+  background: greenyellow;
+  animation-name: move; /* dito nakalagay kung anong name nung animation na ginawa mo parang decorators lang*/
+  animation-duration: 1s;
+  animation-iteration-count: 4; /* dito nakalagay kung ilang beses niya uulitin yung animation */
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-100px);
+    background: blueviolet;
+  }
+  100% {
+    transform: translateX(20px);
+    background: orange;
+  }
+}
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+.Animation2 {
+  background: grey;
+  animation: move 3s linear infinite;
+}
+
+.Animation3 {
+  background: pink;
+  animation: mover 3s 1;
+  animation-fill-mode: forwards; /* so default neto is backwards meaning babalik siya sa original color and all from its div pag ginawa mo tong forward mag sstay siya sa last property na meron si 100%*/
+}
+
+@keyframes mover {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
+}
+
+h1 {
+  font-size: large;
+  color: green;
+  transform: translatex(20px);
+  animation: text 2s linear 3;
+  /* background: red; */
+}
+
+h1::after {
+  content: "";
+  animation: text 2s linear 3;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text {
+  20% {
+    content: " W";
+    transform: translatex(18px);
+  }
+  40% {
+    content: " WO";
+    transform: translatex(16px);
+  }
+  60% {
+    content: " WOR";
+    transform: translatex(14px);
+  }
+  80% {
+    content: " WORL";
+    transform: translatex(12px);
+  }
+  100% {
+    content: " WORLD";
+    transform: translatex(10px);
+  }
+}
